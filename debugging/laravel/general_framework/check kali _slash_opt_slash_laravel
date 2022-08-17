@@ -1,0 +1,5 @@
+
+
+/opt/laravel
+/opt/laravel/docker-compose-laravel
+cat /opt/laravel/history_docker_compose_laraval | less

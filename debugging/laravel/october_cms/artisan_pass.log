@@ -1,0 +1,198 @@
+Cannot load Xdebug - it was already loaded
+Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[32mMigrating application and plugins...[39m
+
+[33mIn Connection.php line 669:[39m
+[37;41m                                                                               [39;49m
+[37;41m  SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name o  [39;49m
+[37;41m  r service not known (SQL: select * from information_schema.tables where tab  [39;49m
+[37;41m  le_schema = octobercms and table_name = migrations and table_type = 'BASE T  [39;49m
+[37;41m  ABLE')                                                                       [39;49m
+[37;41m                                                                               [39;49m
+
+[33mIn Exception.php line 18:[39m
+[37;41m                                                                               [39;49m
+[37;41m  SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name o  [39;49m
+[37;41m  r service not known                                                          [39;49m
+[37;41m                                                                               [39;49m
+
+[33mIn PDOConnection.php line 39:[39m
+[37;41m                                                                               [39;49m
+[37;41m  SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo failed: Name o  [39;49m
+[37;41m  r service not known                                                          [39;49m
+[37;41m                                                                               [39;49m
+
+[33mIn PDOConnection.php line 39:[39m
+[37;41m                                                                               [39;49m
+[37;41m  PDO::__construct(): php_network_getaddresses: getaddrinfo failed: Name or s  [39;49m
+[37;41m  ervice not known                                                             [39;49m
+[37;41m                                                                               [39;49m
+
+Cannot load Xdebug - it was already loaded
+Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[32mMigrating application and plugins...[39m
+Migration table created
+System
+[33mMigrating:[39m 2013_10_01_000001_Db_Deferred_Bindings
+[32mMigrated:[39m  2013_10_01_000001_Db_Deferred_Bindings (0.38 seconds)
+[33mMigrating:[39m 2013_10_01_000002_Db_System_Files
+[32mMigrated:[39m  2013_10_01_000002_Db_System_Files (0.52 seconds)
+[33mMigrating:[39m 2013_10_01_000003_Db_System_Plugin_Versions
+[32mMigrated:[39m  2013_10_01_000003_Db_System_Plugin_Versions (0.18 seconds)
+[33mMigrating:[39m 2013_10_01_000004_Db_System_Plugin_History
+[32mMigrated:[39m  2013_10_01_000004_Db_System_Plugin_History (0.2 seconds)
+[33mMigrating:[39m 2013_10_01_000005_Db_System_Settings
+[32mMigrated:[39m  2013_10_01_000005_Db_System_Settings (0.14 seconds)
+[33mMigrating:[39m 2013_10_01_000006_Db_System_Parameters
+[32mMigrated:[39m  2013_10_01_000006_Db_System_Parameters (0.14 seconds)
+[33mMigrating:[39m 2013_10_01_000007_Db_System_Add_Disabled_Flag
+[32mMigrated:[39m  2013_10_01_000007_Db_System_Add_Disabled_Flag (0.05 seconds)
+[33mMigrating:[39m 2013_10_01_000008_Db_System_Mail_Templates
+[32mMigrated:[39m  2013_10_01_000008_Db_System_Mail_Templates (0.14 seconds)
+[33mMigrating:[39m 2013_10_01_000009_Db_System_Mail_Layouts
+[32mMigrated:[39m  2013_10_01_000009_Db_System_Mail_Layouts (0.12 seconds)
+[33mMigrating:[39m 2014_10_01_000010_Db_Jobs
+[32mMigrated:[39m  2014_10_01_000010_Db_Jobs (0.1 seconds)
+[33mMigrating:[39m 2014_10_01_000011_Db_System_Event_Logs
+[32mMigrated:[39m  2014_10_01_000011_Db_System_Event_Logs (0.16 seconds)
+[33mMigrating:[39m 2014_10_01_000012_Db_System_Request_Logs
+[32mMigrated:[39m  2014_10_01_000012_Db_System_Request_Logs (0.08 seconds)
+[33mMigrating:[39m 2014_10_01_000013_Db_System_Sessions
+[32mMigrated:[39m  2014_10_01_000013_Db_System_Sessions (0.19 seconds)
+[33mMigrating:[39m 2015_10_01_000014_Db_System_Mail_Layout_Rename
+[32mMigrated:[39m  2015_10_01_000014_Db_System_Mail_Layout_Rename (0.02 seconds)
+[33mMigrating:[39m 2015_10_01_000015_Db_System_Add_Frozen_Flag
+[32mMigrated:[39m  2015_10_01_000015_Db_System_Add_Frozen_Flag (0.05 seconds)
+[33mMigrating:[39m 2015_10_01_000016_Db_Cache
+[32mMigrated:[39m  2015_10_01_000016_Db_Cache (0.2 seconds)
+[33mMigrating:[39m 2015_10_01_000017_Db_System_Revisions
+[32mMigrated:[39m  2015_10_01_000017_Db_System_Revisions (0.27 seconds)
+[33mMigrating:[39m 2015_10_01_000018_Db_FailedJobs
+[32mMigrated:[39m  2015_10_01_000018_Db_FailedJobs (0.08 seconds)
+[33mMigrating:[39m 2016_10_01_000019_Db_System_Plugin_History_Detail_Text
+[32mMigrated:[39m  2016_10_01_000019_Db_System_Plugin_History_Detail_Text (0.27 seconds)
+[33mMigrating:[39m 2016_10_01_000020_Db_System_Timestamp_Fix
+[32mMigrated:[39m  2016_10_01_000020_Db_System_Timestamp_Fix (0.46 seconds)
+[33mMigrating:[39m 2017_08_04_121309_Db_Deferred_Bindings_Add_Index_Session
+[32mMigrated:[39m  2017_08_04_121309_Db_Deferred_Bindings_Add_Index_Session (0.07 seconds)
+[33mMigrating:[39m 2017_10_01_000021_Db_System_Sessions_Update
+[32mMigrated:[39m  2017_10_01_000021_Db_System_Sessions_Update (0.05 seconds)
+[33mMigrating:[39m 2017_10_01_000022_Db_Jobs_FailedJobs_Update
+[32mMigrated:[39m  2017_10_01_000022_Db_Jobs_FailedJobs_Update (0.16 seconds)
+[33mMigrating:[39m 2017_10_01_000023_Db_System_Mail_Partials
+[32mMigrated:[39m  2017_10_01_000023_Db_System_Mail_Partials (0.1 seconds)
+[33mMigrating:[39m 2017_10_23_000024_Db_System_Mail_Layouts_Add_Options_Field
+[32mMigrated:[39m  2017_10_23_000024_Db_System_Mail_Layouts_Add_Options_Field (0.06 seconds)
+[33mMigrating:[39m 2021_10_01_000025_Db_Add_Pivot_Data_To_Deferred_Bindings
+[32mMigrated:[39m  2021_10_01_000025_Db_Add_Pivot_Data_To_Deferred_Bindings (0.05 seconds)
+Backend
+[33mMigrating:[39m 2013_10_01_000001_Db_Backend_Users
+[32mMigrated:[39m  2013_10_01_000001_Db_Backend_Users (0.34 seconds)
+[33mMigrating:[39m 2013_10_01_000002_Db_Backend_User_Groups
+[32mMigrated:[39m  2013_10_01_000002_Db_Backend_User_Groups (0.14 seconds)
+[33mMigrating:[39m 2013_10_01_000003_Db_Backend_Users_Groups
+[32mMigrated:[39m  2013_10_01_000003_Db_Backend_Users_Groups (0.23 seconds)
+[33mMigrating:[39m 2013_10_01_000004_Db_Backend_User_Throttle
+[32mMigrated:[39m  2013_10_01_000004_Db_Backend_User_Throttle (0.21 seconds)
+[33mMigrating:[39m 2014_01_04_000005_Db_Backend_User_Preferences
+[32mMigrated:[39m  2014_01_04_000005_Db_Backend_User_Preferences (0.15 seconds)
+[33mMigrating:[39m 2014_10_01_000006_Db_Backend_Access_Log
+[32mMigrated:[39m  2014_10_01_000006_Db_Backend_Access_Log (0.08 seconds)
+[33mMigrating:[39m 2014_10_01_000007_Db_Backend_Add_Description_Field
+[32mMigrated:[39m  2014_10_01_000007_Db_Backend_Add_Description_Field (0.11 seconds)
+[33mMigrating:[39m 2015_10_01_000008_Db_Backend_Add_Superuser_Flag
+[32mMigrated:[39m  2015_10_01_000008_Db_Backend_Add_Superuser_Flag (0.07 seconds)
+[33mMigrating:[39m 2016_10_01_000009_Db_Backend_Timestamp_Fix
+[32mMigrated:[39m  2016_10_01_000009_Db_Backend_Timestamp_Fix (0.18 seconds)
+[33mMigrating:[39m 2017_10_01_000010_Db_Backend_User_Roles
+[32mMigrated:[39m  2017_10_01_000010_Db_Backend_User_Roles (0.21 seconds)
+[33mMigrating:[39m 2018_12_16_000011_Db_Backend_Add_Deleted_At
+[32mMigrated:[39m  2018_12_16_000011_Db_Backend_Add_Deleted_At (0 seconds)
+Cms
+[33mMigrating:[39m 2014_10_01_000001_Db_Cms_Theme_Data
+[32mMigrated:[39m  2014_10_01_000001_Db_Cms_Theme_Data (0.14 seconds)
+[33mMigrating:[39m 2016_10_01_000002_Db_Cms_Timestamp_Fix
+[32mMigrated:[39m  2016_10_01_000002_Db_Cms_Timestamp_Fix (0.05 seconds)
+[33mMigrating:[39m 2017_10_01_000003_Db_Cms_Theme_Logs
+[32mMigrated:[39m  2017_10_01_000003_Db_Cms_Theme_Logs (0.25 seconds)
+[33mMigrating:[39m 2018_11_01_000001_Db_Cms_Theme_Templates
+[32mMigrated:[39m  2018_11_01_000001_Db_Cms_Theme_Templates (0.21 seconds)
+October.Demo
+ - [32mv1.0.1: [39m First version of Demo
+October.Drivers
+ - [32mv1.0.1: [39m First version of Drivers
+ - [32mv1.0.2: [39m Update Guzzle library to version 5.0
+ - [32mv1.1.0: [39m Update AWS library to version 3.0
+ - [32mv1.1.1: [39m Update Guzzle library to version 6.0
+ - [32mv1.1.2: [39m Update Guzzle library to version 6.3
+ - [32mv1.1.3: [39m Update AWS library to version 3.1
+[32mSeeded System[39m 
+[32mSeeded Backend[39m 
+
+[32m\Backend\Database\Seeds\DatabaseSeeder reported:[39m
+ - The following password has been automatically generated for the "admin" account: [33;1mgLF6ZV4iF5Y52ynw4DQO8D[39;22m
+Cannot load Xdebug - it was already loaded
+Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[32mMigrating application and plugins...[39m
+System
+[32mNothing to migrate.[39m
+Backend
+[32mNothing to migrate.[39m
+Cms
+[32mNothing to migrate.[39m
+October.Demo
+ - [32mNothing to update.[39m
+October.Drivers
+ - [32mNothing to update.[39m
+Cannot load Xdebug - it was already loaded
+Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[32mMigrating application and plugins...[39m
+System
+[32mNothing to migrate.[39m
+Backend
+[32mNothing to migrate.[39m
+Cms
+[32mNothing to migrate.[39m
+October.Demo
+ - [32mNothing to update.[39m
+October.Drivers
+ - [32mNothing to update.[39m
+Cannot load Xdebug - it was already loaded
+Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[32mMigrating application and plugins...[39m
+System
+[32mNothing to migrate.[39m
+Backend
+[32mNothing to migrate.[39m
+Cms
+[32mNothing to migrate.[39m
+October.Demo
+ - [32mNothing to update.[39m
+October.Drivers
+ - [32mNothing to update.[39m
+Cannot load Xdebug - it was already loaded
+Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[32mMigrating application and plugins...[39m
+System
+[32mNothing to migrate.[39m
+Backend
+[32mNothing to migrate.[39m
+Cms
+[32mNothing to migrate.[39m
+October.Demo
+ - [32mNothing to update.[39m
+October.Drivers
+ - [32mNothing to update.[39m
+Cannot load Xdebug - it was already loaded
+Xdebug: [Step Debug] Could not connect to debugging client. Tried: host.docker.internal:9003 (through xdebug.client_host/xdebug.client_port) :-(
+[32mMigrating application and plugins...[39m
+System
+[32mNothing to migrate.[39m
+Backend
+[32mNothing to migrate.[39m
+Cms
+[32mNothing to migrate.[39m
+October.Demo
+ - [32mNothing to update.[39m
+October.Drivers
+ - [32mNothing to update.[39m
