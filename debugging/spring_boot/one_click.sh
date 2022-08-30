@@ -19,7 +19,7 @@ fi
 
 debug_port=5005
 IP=localhost
-port=8080
+port=8081
 # # normal (remove lines after `mkdir ./.vscode 2>/dev/null`):
 # mvn install -DskipTests
 # # with debugging:
@@ -39,8 +39,8 @@ services:
   API:
     image: "blog-api-docker"
     ports:
-      - "'$port':'$port'"
-      - "'$debug_port':'$debug_port'"
+      - "'$port':8080"
+      - "'$debug_port':5005"
     depends_on:
       PostgreSQL:
         condition: service_healthy
